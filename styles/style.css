@@ -93,6 +93,9 @@ h2 {
   display: flex;
   justify-content: center;
 }
+.heading img {
+  margin-top: 20px;
+}
 
 .heading p {
   font-size: 12px;
