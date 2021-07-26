@@ -32,7 +32,7 @@ ul {
 
 h2 {
   font-size: 24px;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .open-menu,
@@ -59,8 +59,8 @@ h2 {
 
   background: #001f6d;
 
-  width: 375px;
-  height: 812px;
+  width: 100vw;
+  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -80,8 +80,8 @@ h2 {
   align-items: center;
   flex-direction: column;
 
-  width: 375px;
-  height: 200px;
+  width: 100%;
+  height: 40%;
 }
 
 .nav-burger a {
@@ -92,9 +92,6 @@ h2 {
 .logo {
   display: flex;
   justify-content: center;
-}
-.heading img {
-  margin-top: 20px;
 }
 
 .heading p {
