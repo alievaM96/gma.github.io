@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 40px 0 0 0;
+
+  color: #141414;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: linear-gradient(#d9e3ff, white);
+}
+
+main,
+footer {
+  padding: 0 30px 40px 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #001f6d;
+}
+
+ul {
+  padding: 0;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.open-menu,
+.close-menu {
+  background: none;
+  outline: none;
+  border: none;
+
+  top: 20px;
+  left: 20px;
+}
+.open-menu {
+  position: fixed;
+}
+
+.close-menu {
+  position: absolute;
+}
+
+.nav-burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background: #001f6d;
+
+  width: 375px;
+  height: 812px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-burger li {
+  text-align: center;
+  font-size: 26px;
+}
+.nav-burger ul {
+  color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  width: 375px;
+  height: 200px;
+}
+
+.nav-burger a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.heading p {
+  font-size: 12px;
+  text-align: right;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.advantage > header,
+.composition > header {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.advantage li::before {
+  content: " ";
+  display: inline-block;
+  background: url(../images/check.svg);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 24px;
+  height: 24px;
+}
+
+.plant {
+  width: 80px;
+}
+
+.composition * {
+  color: #4bc959;
+  text-align: justify;
+}
+.composition p {
+  text-align: justify;
+}
+
+footer {
+  padding: 30px;
+  background: #001f6d;
+}
+
+article {
+  margin-top: 40px;
+}
